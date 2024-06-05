@@ -40,3 +40,13 @@
             color: #bdbdbd; /* 내용 폰트 색상 */
             font-weight: normal; /* 내용 폰트 볼드 설정 */
         }
+
+	.content a {/*바로 가기를 위한 처리 스타일*/
+	    color: #ffcc00;
+	    text-decoration: none;
+	    font-weight: bold;
+	}
+
+	.content a:hover {/*바로 가기를 위한 처리 스타일*/
+	    text-decoration: underline;
+	}
