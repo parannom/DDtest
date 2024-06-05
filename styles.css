@@ -17,10 +17,10 @@
             border-radius: 10px;
         }
         .container {
-            padding: 25px;
+            padding: 20px;
         }
         .title {
-            font-size: 28px; /* 타이틀 폰트 크기 28px */
+            font-size: 27px;
             margin-bottom: 20px;
             color: #ffffff; /* 타이틀 폰트 색상 */
             font-weight: bold; /* 타이틀 폰트 볼드 */
@@ -30,13 +30,13 @@
             text-align: center;
         }
         .image img {
-            width: calc(100% - 40px); /* 이미지 좌우 20px 마진을 고려한 너비 계산 */
+            width: calc(100% - 20px); /* 이미지 좌우 20px 마진을 고려한 너비 계산 */
             max-width: 720px;
             height: auto;
         }
         .content {
-            font-size: 18px; /* 내용 폰트 크기 18px */
-            margin-top: 20px;
+            font-size: 17px;
+            margin-top: 15px;
             color: #bdbdbd; /* 내용 폰트 색상 */
             font-weight: normal; /* 내용 폰트 볼드 설정 */
         }
