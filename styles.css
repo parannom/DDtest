@@ -1,0 +1,42 @@
+        body {
+            background-color: #2b3238;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            color: white;
+            overflow-y: scroll;
+            overflow-x: hidden;
+        }
+        ::-webkit-scrollbar {
+            width: 4px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #2b3238;
+        }
+        ::-webkit-scrollbar-thumb {
+            background-color: #4a555f;
+            border-radius: 10px;
+        }
+        .container {
+            padding: 25px;
+        }
+        .title {
+            font-size: 28px; /* 타이틀 폰트 크기 28px */
+            margin-bottom: 20px;
+            color: #ffffff; /* 타이틀 폰트 색상 */
+            font-weight: bold; /* 타이틀 폰트 볼드 */
+        }
+        .image {
+            margin: 0 -20px; /* 이미지 컨테이너 좌우 -20px */
+            text-align: center;
+        }
+        .image img {
+            width: calc(100% - 40px); /* 이미지 좌우 20px 마진을 고려한 너비 계산 */
+            max-width: 720px;
+            height: auto;
+        }
+        .content {
+            font-size: 18px; /* 내용 폰트 크기 18px */
+            margin-top: 20px;
+            color: #bdbdbd; /* 내용 폰트 색상 */
+            font-weight: normal; /* 내용 폰트 볼드 설정 */
+        }
