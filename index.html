@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
 </head>
+<script src="scripts.js"></script>
 <body>
     <div class="container">
         <div class="title">게임 업데이트 수정 및 최적화 설명</div>
@@ -35,18 +36,3 @@
     </div>
 </body>
 </html>
-
-   <script>
-        function openExternalBrowser(url) {
-            // 외부 브라우저를 여는 함수
-            if (window.open) {
-                window.open(url, '_blank');
-            } else {
-                // 모바일 환경이나 다른 제한된 환경에서는 대체 방법
-                var a = document.createElement('a');
-                a.setAttribute('href', url);
-                a.setAttribute('target', '_blank');
-                a.click();
-            }
-        }
-    </script>
