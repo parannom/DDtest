@@ -21,6 +21,7 @@
         }
         .title {
             font-size: 27px;
+	    margin-left: 5px;
             margin-bottom: 20px;
             color: #ffffff; /* 타이틀 폰트 색상 */
             font-weight: bold; /* 타이틀 폰트 볼드 */
@@ -30,7 +31,7 @@
             text-align: center;
         }
         .image img {
-            width: calc(100% - 20px); /* 이미지 좌우 20px 마진을 고려한 너비 계산 */
+            width: calc(100% - 40px); /* 이미지 좌우 20px 마진을 고려한 너비 계산 */
             max-width: 720px;
             height: auto;
         }
