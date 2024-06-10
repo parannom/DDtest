@@ -33,8 +33,6 @@ body {
 }
 
 .image {
-    padding-left: 20px; /* 이미지 컨테이너 왼쪽 여백 설정 */
-    margin: 0 -20px; /* 이미지 컨테이너 좌우 여백 설정 */
     text-align: center; /* 이미지 가운데 정렬 */
 }
 
