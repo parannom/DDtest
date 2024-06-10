@@ -38,7 +38,7 @@ body {
 
 .image img {
     width: 100%; /* 부모 요소의 너비에 맞춰 설정 */
-    max-width: 1200px; /* 최대 너비 설정 */
+    max-width: 3600px; /* 최대 너비 설정 */
     height: auto; /* 이미지 높이 자동 설정 (비율 유지) */
 }
 
