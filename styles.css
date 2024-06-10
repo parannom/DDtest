@@ -33,19 +33,20 @@ body {
 }
 
 .image {
-    /*padding-left: 13px; /* 이미지 컨테이너 왼쪽 여백 설정 */
-    /*margin: 0 -20px; /* 이미지 컨테이너 좌우 여백 설정 */
+    padding-left: 20px; /* 이미지 컨테이너 왼쪽 여백 설정 */
+    margin: 0 -20px; /* 이미지 컨테이너 좌우 여백 설정 */
     text-align: center; /* 이미지 가운데 정렬 */
 }
 
 .image img {
-    max-width: 100%; /* 이미지 최대 너비 설정 */
+    width: 100%; /* 부모 요소의 너비에 맞춰 설정 */
+    max-width: 1200px; /* 최대 너비 설정 */
     height: auto; /* 이미지 높이 자동 설정 (비율 유지) */
 }
 
 .content {
     font-size: 17px; /* 폰트 크기 설정 */
-    margin-top: 15px; /* 위쪽 여백 설정 */
+    margin-top: 10px; /* 위쪽 여백 설정 */
     color: #bdbdbd; /* 내용 폰트 색상 */
     font-weight: normal; /* 내용 폰트 볼드 해제 */
 }
