@@ -31,7 +31,7 @@
             text-align: center;
         }
         .image img {
-            width: calc(100% - 40px); /* 이미지 좌우 20px 마진을 고려한 너비 계산 */
+            /* width: calc(100% - 40px);  이미지 좌우 20px 마진을 고려한 너비 계산 */
             max-width: 720px;
             height: 230px;
         }
