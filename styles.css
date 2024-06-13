@@ -61,3 +61,14 @@ body {
 .content a:hover {
     text-decoration: underline; /* 링크 호버 시 밑줄 표시 */
 }
+
+
+/* 아이폰 대응 미디어 쿼리 */
+@media screen and (max-width: 768px) {
+    .title {
+        font-size: 1.5em;
+    }
+    .content {
+        font-size: 0.875em;
+    }
+}
