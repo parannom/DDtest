@@ -8,19 +8,10 @@ body {
     overflow-x: hidden; /* 수평 스크롤바 숨김 */
 }
 
-p span{
-    font-weight: 500;
-}
-
-input,
-button{
-    font-family: 'Noto Sans KR', sans-serif;    
-}
-
-
 ::-webkit-scrollbar {
     width: 4px; /* 스크롤바 너비 설정 */
 }
+
 
 ::-webkit-scrollbar-track {
     background: #2b3238; /* 스크롤바 트랙 배경 색상 */
@@ -36,7 +27,7 @@ button{
 }
 
 .title {
-    font-weight: 500;
+    font-size: 25px; /* 폰트 크기 설정 */
     margin-left: 5px; /* 왼쪽 여백 설정 */
     margin-bottom: 20px; /* 아래쪽 여백 설정 */
     color: #ffffff; /* 타이틀 폰트 색상 */
@@ -54,21 +45,18 @@ button{
 }
 
 .content {
-    font-size: 100%;
-    font-size: 17px; /* 폰트 크기 설정 */
+    font-size: 16px; /* 폰트 크기 설정 */
     margin-top: 10px; /* 위쪽 여백 설정 */
     color: #bdbdbd; /* 내용 폰트 색상 */
     font-weight: normal; /* 내용 폰트 볼드 해제 */
 }
 
 .content a {
-    font-size: 100%;
     color: #ffcc00; /* 링크 폰트 색상 */
     text-decoration: none; /* 링크 밑줄 해제 */
     font-weight: bold; /* 링크 폰트 볼드 */
 }
 
 .content a:hover {
-    font-size: 100%;
     text-decoration: underline; /* 링크 호버 시 밑줄 표시 */
 }
