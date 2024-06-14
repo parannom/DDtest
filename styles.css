@@ -24,9 +24,7 @@ body {
 /* 타이틀 컨테이너 스타일 */
 .title-container {
     padding: 0vw;
-//    font-size: 3.4vw; /* 타이틀 폰트 크기 설정 */
-    font-size: 5vw; /* 타이틀 폰트 크기 설정 */
-
+    font-size: 3.4vw; /* 타이틀 폰트 크기 설정 */
 }
 
 .title {
