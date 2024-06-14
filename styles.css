@@ -24,10 +24,12 @@ body {
 /* 타이틀 컨테이너 스타일 */
 .title-container {
     padding: 0vw;
+//    font-size: 3.4vw; /* 타이틀 폰트 크기 설정 */
+    font-size: 5vw; /* 타이틀 폰트 크기 설정 */
+
 }
 
 .title {
-    font-size: 3.4vw; /* 타이틀 폰트 크기 설정 */
     padding: 3vw;
     color: #ffffff; /* 타이틀 폰트 색상 */
     font-weight: bold; /* 타이틀 폰트 볼드 */
@@ -45,7 +47,7 @@ body {
 }
 
 .image img {
-    width: 720px;
+    width: 100%;
     height: auto;
     display: block;
 }
@@ -53,13 +55,14 @@ body {
 
 /* 컨텐츠 컨테이너 스타일 */
 .content-container {
+    font-size: 2.2vw; /* 본문 폰트 크기 설정 */
+
 }
 
 .content {
     margin-top: 2.5vw;
     padding-left: 2.5vw;
     padding-right: 2.5vw;
-    font-size: 2.2vw; /* 본문 폰트 크기 설정 */
     color: #bdbdbd;
     font-weight: normal;
     line-height: 1.5;
@@ -73,15 +76,4 @@ body {
 
 .content a:hover {
     text-decoration: underline;
-}
-
-/* Safari 브라우저 전용 설정 */
-@supports (-webkit-touch-callout: none) {
-    .title {
-        font-size: 3.4vw;
-    }
-
-    .content {
-        font-size: 2.2vw;
-    }
 }
