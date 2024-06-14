@@ -79,14 +79,12 @@ body {
 }
 
 
-
-/* 가로 모드 (Landscape) */
-@media (orientation: landscape) {
-    .title-container {
-        font-size: 3.4vw !important; /* 타이틀 폰트 크기 설정 */
+@media screen and (max-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+    .title {
+        font-size: 2.5vw; /* 아이폰 랜드스케이프 모드 타이틀 폰트 크기 */
     }
 
-.content-container {
-        font-size: 1.5vw !important; /* 본문 폰트 크기 설정 */
+    .content {
+        font-size: 1.6vw; /* 아이폰 랜드스케이프 모드 본문 폰트 크기 */
     }
 }
