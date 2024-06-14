@@ -78,13 +78,11 @@ body {
     text-decoration: underline;
 }
 
+/* 아이폰 전용 스타일 */
+.ios .title {
+    font-size: 4vw; /* 아이폰에서 타이틀 폰트 크기 설정 */
+}
 
-@media screen and (max-device-width: 768px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
-    .title {
-        font-size: 2.5vw; /* 아이폰 랜드스케이프 모드 타이틀 폰트 크기 */
-    }
-
-    .content {
-        font-size: 1.6vw; /* 아이폰 랜드스케이프 모드 본문 폰트 크기 */
-    }
+.ios .content {
+    font-size: 2.5vw; /* 아이폰에서 본문 폰트 크기 설정 */
 }
