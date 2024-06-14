@@ -80,11 +80,11 @@ body {
 @supports (-webkit-touch-callout: none) {
     @media screen and (max-width: 760px) and (orientation: landscape) {
         .title {
-            font-size: 2.5vw; /* 아이폰 랜드스케이프 모드 타이틀 폰트 크기 */
+            font-size: 3vw; /* 아이폰 랜드스케이프 모드 타이틀 폰트 크기 */
         }
 
         .content {
-            font-size: 1.6vw; /* 아이폰 랜드스케이프 모드 본문 폰트 크기 */
+            font-size: 1.5vw; /* 아이폰 랜드스케이프 모드 본문 폰트 크기 */
         }
     }
 }
