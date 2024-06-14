@@ -21,57 +21,59 @@ body {
     border-radius: 10px; /* 스크롤바 모서리 둥글게 설정 */
 }
 
-/* 타이틀 컨테이너 스타일 */
-.title-container {
-    padding: 0vw;
-    font-size: 3.4vw; /* 타이틀 폰트 크기 설정 */
+.container {
+    //padding: 2vw; /* 내부 여백 설정 */
+    //margin: 0 auto; /* 가운데 정렬 */
 }
 
 .title {
-    padding: 3vw;
+    padding: 2.5vw; /* 내부 여백 설정 */
+    font-size: 3.4vw; /* 타이틀 폰트 크기 설정 */
     color: #ffffff; /* 타이틀 폰트 색상 */
     font-weight: bold; /* 타이틀 폰트 볼드 */
-}
-
-/* 이미지 컨테이너 스타일 */
-.image-container {
 
 }
 
 .image {
-    padding-left: 2.5vw;
-    padding-right: 2.5vw;
-    text-align: center;
+    margin-left: 2vw; /* 위쪽 여백 설정 */
+    margin-right: 2vw; /* 위쪽 여백 설정 */
+    text-align: center; /* 이미지 가운데 정렬 */
 }
 
 .image img {
-    width: 100%;
-    height: auto;
-    display: block;
-}
-
-
-/* 컨텐츠 컨테이너 스타일 */
-.content-container {
-    font-size: 2.2vw; /* 본문 폰트 크기 설정 */
-
+    width: 100%; /* 이미지 너비 고정 */
+    height: auto; /* 이미지 높이 자동 설정 */
+    display: block; /* 블록 요소로 변경 */
 }
 
 .content {
-    margin-top: 2.5vw;
-    padding-left: 2.5vw;
-    padding-right: 2.5vw;
-    color: #bdbdbd;
-    font-weight: normal;
-    line-height: 1.5;
+    font-size: 2.24vw; /* 본문 폰트 크기 설정 */
+    margin: 2vw; /* 여백 설정 */
+    color: #bdbdbd; /* 내용 폰트 색상 */
+    font-weight: normal; /* 내용 폰트 볼드 해제 */
+    line-height: 1.6; /* 줄 간격 설정 */
 }
 
 .content a {
     color: #ffcc00; /* 링크 폰트 색상 */
-    text-decoration: none;
-    font-weight: bold;
+    text-decoration: none; /* 링크 밑줄 해제 */
+    font-weight: bold; /* 링크 폰트 볼드 */
 }
 
 .content a:hover {
-    text-decoration: underline;
+    text-decoration: underline; /* 링크 호버 시 밑줄 표시 */
+}
+
+
+/* 가로 모드 (Landscape) */
+@media (orientation: landscape) {
+    .title {
+        font-size: 3.4vw !important; /* 타이틀 폰트 크기 설정 */
+//        margin: 1vw 0 !important; /* 타이틀 상하 여백 설정 */
+    }
+
+    .content {
+        font-size: 1.24vw !important; /* 본문 폰트 크기 설정 */
+//        margin-top: 2.5vw !important; /* 위쪽 여백 설정 */
+    }
 }
