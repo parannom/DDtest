@@ -68,15 +68,23 @@ body {
     text-decoration: underline; /* 링크 호버 시 밑줄 표시 */
 }
 
-/* 가로 모드 (Landscape) */
-@media (orientation: landscape) {
+@media (max-width: 760px) {
     .title {
-        font-size: 3.4vw !important; /* 타이틀 폰트 크기 설정 */
-//        margin: 1vw 0 !important; /* 타이틀 상하 여백 설정 */
+        font-size: 3.4vw;
     }
 
     .content {
-        font-size: 1.24vw !important; /* 본문 폰트 크기 설정 */
-//        margin-top: 2.5vw !important; /* 위쪽 여백 설정 */
+        font-size: 2.24vw;
+    }
+}
+
+/* 큰 화면에 대한 폰트 크기 조정 */
+@media (min-width: 761px) {
+    .title {
+        font-size: 3.4vw;
+    }
+
+    .content {
+        font-size: 2.24vw;
     }
 }
