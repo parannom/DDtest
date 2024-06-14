@@ -22,20 +22,22 @@ body {
 }
 
 .container {
-    padding: 2vw; /* 내부 여백 설정 */
-    //max-width: 720px; /* 최대 너비 설정 */
+    //padding: 2vw; /* 내부 여백 설정 */
     //margin: 0 auto; /* 가운데 정렬 */
 }
 
 .title {
+    padding: 2.5vw; /* 내부 여백 설정 */
     font-size: 3.4vw; /* 타이틀 폰트 크기 설정 */
-    margin: 3vw 0; /* 상하 여백 설정 */
+//    margin: 3vw 0; /* 상하 여백 설정 */
     color: #ffffff; /* 타이틀 폰트 색상 */
     font-weight: bold; /* 타이틀 폰트 볼드 */
 
 }
 
 .image {
+    margin-left: 2vw; /* 위쪽 여백 설정 */
+    margin-right: 2vw; /* 위쪽 여백 설정 */
     text-align: center; /* 이미지 가운데 정렬 */
 }
 
@@ -49,7 +51,7 @@ body {
 
 .content {
     font-size: 2.24vw; /* 본문 폰트 크기 설정 */
-    margin-top: 2.5vw; /* 위쪽 여백 설정 */
+    margin: 2vw; /* 여백 설정 */
     color: #bdbdbd; /* 내용 폰트 색상 */
     font-weight: normal; /* 내용 폰트 볼드 해제 */
     line-height: 1.6; /* 줄 간격 설정 */
