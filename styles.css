@@ -1,3 +1,11 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
 body {
     background-color: #2b3238; /* 배경 색상 설정 */
     margin: 0; /* 여백 제거 */
@@ -6,6 +14,8 @@ body {
     color: white; /* 기본 폰트 색상 */
     overflow-y: scroll; /* 수직 스크롤바 표시 */
     overflow-x: hidden; /* 수평 스크롤바 숨김 */
+    -webkit-font-smoothing: antialiased; /* Safari 폰트 스무딩 */
+
 }
 
 #T{
