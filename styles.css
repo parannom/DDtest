@@ -75,3 +75,13 @@ body {
     text-decoration: underline;
 }
 
+/* Safari 브라우저 전용 설정 */
+@supports (-webkit-touch-callout: none) {
+    .title {
+        font-size: 3.4vw;
+    }
+
+    .content {
+        font-size: 2.2vw;
+    }
+}
