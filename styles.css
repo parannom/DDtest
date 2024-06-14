@@ -6,6 +6,7 @@ body {
     color: white; /* 기본 폰트 색상 */
     overflow-y: scroll; /* 수직 스크롤바 표시 */
     overflow-x: hidden; /* 수평 스크롤바 숨김 */
+    font-size: 2.24vw; /* 본문 폰트 크기 설정 */
 }
 
 ::-webkit-scrollbar {
